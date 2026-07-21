@@ -36,6 +36,7 @@ button{
 }
 
 
+
 /*HEADER*/
 .header{
     background-color: var(--dark-color);
@@ -60,6 +61,7 @@ button{
         opacity: 0.9;
     }
 }
+
 
 
 /*HERO*/
@@ -105,6 +107,7 @@ button{
     object-position: 40px -100px;
     transform: scale(1.2)
 }
+
 
 
 /*RANDOM INFORMATION*/
@@ -153,11 +156,30 @@ button{
 }
 
 
+
 /*QUOTE*/
 .quote{
+    display: flex;
+    align-items: center;
     background-color: var(--gray-color);
     height: 450px;
 }
+.quote-text{
+    font-size: 32px;
+    font-weight: 200;
+    color: var(--dark-color);
+    font-style: italic;
+    width: 690px;
+    margin-bottom: 16px;
+    text-align: start;
+}
+.quote-author{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
 
 
 /*FOOTER*/
