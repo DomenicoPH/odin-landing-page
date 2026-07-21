@@ -15,10 +15,23 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+button{
+    background-color: var(--blue-color);
+    color: var(--light-color);
+    padding: 10px 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/*HEADER*/
 .header{
     background-color: var(--dark-color);
     color: var(--light-color);
-    padding: 20px 0;
+    padding: 40px 0 0 0;
 }
 .header-content{
     display: flex;
@@ -36,12 +49,54 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 980px;
     margin: 0 auto;
-    padding: 0 20px;
+}
+
+/*HERO*/
+.hero-section{
+    background-color: var(--dark-color);
+    color: var(--light-color)
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 48px 0;
+    height: 450px;
+}
+.left{
+    flex: 1;
+    h1{
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin-bottom: 18px;
+        max-width: 350px;
+    }
+    p{
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+}
+.right{
+    flex: 1;
+}
+.hero-img-container{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    max-height: 250px;
+    border: 1px solid red;
+    
+    img{
+        object-fit: contain;
+    }
 }
 
 
+/*FOOTER*/
 .copyright{
     text-align: center;
 }
